@@ -1,3 +1,3 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/webapp');
-console.log('Database connected');
+console.log('Database connected successfully');
