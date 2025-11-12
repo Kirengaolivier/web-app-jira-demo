@@ -1,3 +1,3 @@
-app.get('/home', (req, res) => {
-  res.send('Welcome to the WEB-1 Homepage!');
-});
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/webapp');
+console.log('Database connected');
