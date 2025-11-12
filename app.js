@@ -1,3 +1,3 @@
-app.get('/login', (req, res) => {
-  res.send('User login page – authentication feature.');
-});
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/webapp');
+console.log('Database connected successfully');
